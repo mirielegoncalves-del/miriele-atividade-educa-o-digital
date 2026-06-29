@@ -1,0 +1,54 @@
+/* ALTERE AS CORES DO SEU SITE */
+
+header {
+    background-color: #ffbaff;
+    color: gray;
+}
+
+body {
+    background-color: #D3D3D3;
+    color: black;
+    font-size: 35px;
+    margin: 35px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "Unkempt", cursive;
+}
+    
+p {
+    font-family: "Unkempt", cursive;
+}
+
+button {
+    background-color: #ffbaff;
+    color: gray;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+}
+
+label {
+    font-family: "Unkempt", cursive;
+    font-size: 35px;
+    display: block;  /* Coloca a pergunta em uma linha própria */
+    margin-top: 20px; /* Dá espaço entre uma pergunta e outra */
+    margin-bottom: 5px; /* Espaço entre a pergunta e a caixa de seleção */
+}
+
+/* ALTERE O TAMANHO DAS IMAGENS */
+
+.galeria-imagens {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /*margem entre as primeiras imagens*/
+    width: 100%; /*largura das imagens*/
+    height: auto; /*altura das imagens*/
+}
+
+select { /*tamanho, altura, e tamanho da fonte da lista*/
+    width: 100px;
+    height: 40px;
+    font-size: 22px;
+}
